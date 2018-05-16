@@ -1,9 +1,10 @@
-/* Test code for generating a vlue from a significand and exponent
- *@param x, Floating point value representing the significand
- *@param y, Value of the exponent
- */
+/**
+*Test code for generating a vlue from a significand and exponent.
+*@param x, Floating point value representing the significand.
+*@param y, Value of the exponent.
+*/
 
-Import STD as Lib;
+Import  $.^ as Lib;
 
 testData := RECORD
   REAL x;
