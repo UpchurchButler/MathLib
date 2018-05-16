@@ -1,3 +1,7 @@
+/**
+ * Test for Normal PPF, Student T's PPF, Chi2 PPF, Normal CDF, T's CDF, and Chi2 CDF.
+ */
+
 IMPORT  $.^ AS MATH;
 IMPORT MATH.Distributions AS Distributions;
 IMPORT Python;
