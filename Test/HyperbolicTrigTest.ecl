@@ -1,9 +1,10 @@
-/* Test code for hyperbolic trig functions 
- *@param x, a numeric value passed to each function
- *@return value is in DEGREES
+/** 
+*Test code for hyperbolic trig functions. 
+*@param x, a numeric value passed to each function.
+*@return value is in DEGREES.
  */
 
-Import STD as Lib;
+Import  $.^ as Lib;
 
 testData := RECORD
   REAL x;
