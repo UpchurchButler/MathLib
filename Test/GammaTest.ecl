@@ -1,6 +1,8 @@
-/ Compare gamma and the incomplete gamma functions against the
-//implementations found in the Python numpy and scipy packages.
-IMPORT STD AS Math;
+/**
+*Compare gamma and the incomplete gamma functions against the implementations found in the Python numpy and scipy packages.
+*/
+
+IMPORT  $.^ AS Math;
 IMPORT Python;
 
 REAL8 scipy_gamma(REAL8 x) := EMBED(Python)
