@@ -1,10 +1,10 @@
-/* Test code for basic trig functions 
- *@param x, a degree value passed to each trig function
- *@param y, only used for calculating ArcTan with 2 parameters. 
- * ie ArcTan(y/x)
-*/
+/** 
+ *Test code for basic trig functions. 
+ *@param x, a degree value passed to each trig function.
+ *@param y, only used for calculating ArcTan with 2 parameters, ie ArcTan(y/x).
+ */
 
-Import STD as Lib;
+Import  $.^ as Lib;
 
 testData := RECORD
   REAL x;
