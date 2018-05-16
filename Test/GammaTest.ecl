@@ -112,6 +112,6 @@ Failed_Action := SEQUENTIAL(
 );
 
 
-EXPORT Validate_Gammas := IF(EXISTS(bad_result),
+EXPORT GammaTest := IF(EXISTS(bad_result),
                              Failed_Action,
                              Passed_Action);
