@@ -3,7 +3,7 @@
  *@return value is numeric
  */
 
-Import STD as Lib;
+Import  $.^ as Lib;
 
 testData := RECORD
   REAL x;
@@ -20,7 +20,7 @@ epsilon  := .000000001;
 
 testPoints := DATASET([{-1},
                         {0},
-												{0.7}], testData);
+			{0.7}], testData);
 
 tf := RECORD
   STRING funcName;
@@ -28,7 +28,7 @@ tf := RECORD
 END;
 
 allTF := DATASET([{'Error Function', [-0.842700792,0,0.677801193]},
-									{'Complementary Error Function', [1.842700792,1,0.322198806]}], tf);
+		{'Complementary Error Function', [1.842700792,1,0.322198806]}], tf);
 
 
 tdExp := RECORD
@@ -46,7 +46,7 @@ resultData doAny(tdExp test, UNSIGNED c) := TRANSFORM
 /*All functions mapped here*/
   
   SELF.result := map(funcName = 'Error Function' 	=> 				Lib.erf(x),
-																														Lib.erfc(x));
+											Lib.erfc(x));
 																						
    
 /*Modulo used to count e.g. 1, 2, 1, 2*/
