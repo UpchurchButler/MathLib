@@ -2,7 +2,7 @@
 //We only expose the Beta at this point, but test is intended to be
 //expanded to add the incomplete (lower) Beta.
 
-IMPORT STD AS Math;
+IMPORT $.^ AS Math;
 
 IMPORT Python;
 REAL8 scipy_beta(REAL8 x, REAL8 y) := EMBED(Python)
