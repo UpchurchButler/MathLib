@@ -5,7 +5,7 @@
  *@return the beta value.
  */
 
-IMPORT $.^ AS Math;;
+IMPORT $ AS Math;;
 gamma := Math.gamma;
 log_gamma := Math.lgamma;
 MAXGAM := 171;
