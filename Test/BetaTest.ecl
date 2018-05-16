@@ -74,4 +74,4 @@ Layout_Test_Result test_func(Layout_Test_Values tv) := TRANSFORM
 END;
 rslt := PROJECT(test_set, test_func(LEFT));
 
-EXPORT Validate_Betas := OUTPUT(rslt);
+EXPORT BetaTest := OUTPUT(rslt);
