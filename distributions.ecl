@@ -2,7 +2,7 @@
 *Normal, Student and Chi Squared distributions for tests.
 */
 IMPORT $.^ AS Math;
-IMPORT MATH.Constants AS Core_Const;
+Core_Const := Math.constants;
 
 EXPORT Distributions := MODULE
   /**
