@@ -5,7 +5,7 @@
  *@return the beta value.
  */
 
-IMPORT std AS Math;;
+IMPORT $.^ AS Math;;
 gamma := Math.gamma;
 log_gamma := Math.log_gamma;
 MAXGAM := 171;
