@@ -1,9 +1,10 @@
-/* Test code for single parameter exponential and logarithmic functions 
- *@param x, a numeric value passed to each function
- *@return value is numeric
+/**
+ *Test code for single parameter exponential and logarithmic functions. 
+ *@param x, a numeric value passed to each function.
+ *@return value is numeric.
  */
 
-Import STD as Lib;
+Import  $.^ as Lib;
 
 testData := RECORD
   REAL x;
