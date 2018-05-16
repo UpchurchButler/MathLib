@@ -1,6 +1,7 @@
-// Compare Beta against the scipy implementation of Beta for validation
-//We only expose the Beta at this point, but test is intended to be
-//expanded to add the incomplete (lower) Beta.
+/**
+*Compare Beta against the scipy implementation of Beta for validation.
+*We only expose the Beta at this point, but test is intended to beexpanded to add the incomplete (lower) Beta.
+*/
 
 IMPORT $.^ AS Math;
 
