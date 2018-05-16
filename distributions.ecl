@@ -1,9 +1,8 @@
 /**
 *Normal, Student and Chi Squared distributions for tests.
 */
-
-IMPORT std.Constants AS Core_Const;
-IMPORT std AS Math;
+IMPORT $.^ AS Math;
+IMPORT MATH.Constants AS Core_Const;
 
 EXPORT Distributions := MODULE
   /**
