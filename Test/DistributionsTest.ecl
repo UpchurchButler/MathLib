@@ -1,4 +1,5 @@
-IMPORT std.Distributions AS Distributions;
+IMPORT  $.^ AS MATH;
+IMPORT MATH.Distributions AS Distributions;
 IMPORT Python;
 REAL8 scipy_dist_cdf(REAL8 x, REAL8 df, INTEGER dist) := EMBED(Python)
   import scipy;
