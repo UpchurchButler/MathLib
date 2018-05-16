@@ -14,6 +14,7 @@ EXPORT Distributions := MODULE
    * @param x the number of standard deviations
    * @returns probability of exceeding x.
    */
+  
   EXPORT REAL8 Normal_CDF(REAL8 x) := DEFINE FUNCTION
     b1 := 0.319381530;
     b2 :=-0.356563782;
