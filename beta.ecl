@@ -7,7 +7,7 @@
 
 IMPORT $.^ AS Math;;
 gamma := Math.gamma;
-log_gamma := Math.log_gamma;
+log_gamma := Math.lgamma;
 MAXGAM := 171;
 ASYMP := 1000000; //1e6
 
