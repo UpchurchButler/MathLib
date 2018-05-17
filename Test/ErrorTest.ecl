@@ -1,4 +1,5 @@
-/* Test code for error and complementary error functions 
+/**
+ *Test code for error and complementary error functions 
  *@param x, a numeric value passed to each function
  *@return value is numeric
  */
