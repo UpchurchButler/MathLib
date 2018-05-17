@@ -79,3 +79,4 @@ allTests := JOIN(allTF, testPoints, TRUE, TRANSFORM(tdExp, SELF := LEFT, SELF :=
 /* All the tests run at once here*/
 results := PROJECT(allTests, doAny(LEFT, COUNTER));   
 OUTPUT(results, NAMED('Results'));
+ 
