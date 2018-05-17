@@ -124,3 +124,4 @@ error_actions := PARALLEL(
 passed := SEQUENTIAL(OUTPUT(SORT(rpt, test, cat), NAMED('Summary')));
 
 EXPORT DistributionsTest := IF(EXISTS(errors), error_actions, passed);
+ 
