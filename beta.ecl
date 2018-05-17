@@ -1,5 +1,5 @@
 /**
- * Return the beta value of two positive real numbers, x and y.
+ *Return the beta value of two positive real numbers, x and y.
  *@param x the value of the first number.
  *@param y the value of the second number.
  *@return the beta value.
