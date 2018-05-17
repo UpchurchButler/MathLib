@@ -23,7 +23,7 @@ epsilon  := .000000001;
 
 testPoints := DATASET([{5, 0},
                         {1, 5},
-												{15.5, 3}], testData);
+			{15.5, 3}], testData);
 
 tf := RECORD
   STRING funcName;
