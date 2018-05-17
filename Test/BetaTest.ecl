@@ -75,3 +75,4 @@ END;
 rslt := PROJECT(test_set, test_func(LEFT));
 
 EXPORT BetaTest := OUTPUT(rslt);
+ 
